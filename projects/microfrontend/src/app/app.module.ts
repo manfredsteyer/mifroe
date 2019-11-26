@@ -18,7 +18,7 @@ import { AppComponent } from './app.component';
 export class AppModule {
   constructor(injector: Injector) {
     customElements.define(
-      'microfrontend',
+      'micro-frontend',
       createCustomElement(AppComponent, {injector}));
   }
 

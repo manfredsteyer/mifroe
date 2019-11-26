@@ -11,10 +11,10 @@ export class AppComponent {
 
   ngOnInit() {
     const script = document.createElement('script');
-    script.src = 'http://localhost:4201/microfrontend-es2015.js';
+    script.src = 'http://localhost:4444/main-es2015.js';
     this.microfrontend.nativeElement.appendChild(script);
 
-    const microfrontend = document.createElement('microfrontend');
+    const microfrontend = document.createElement('micro-frontend');
     this.microfrontend.nativeElement.appendChild(microfrontend);
   }
 }
