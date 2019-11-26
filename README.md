@@ -10,3 +10,5 @@ All was generated with [Angular CLI](https://github.com/angular/angular-cli) ver
 npm install
 npm run show-problem
 ```
+
+Navigate to `http://localhost:4202`, open the Dev Tools and display the `Elements`, there you can see that `_nghost` attributes are injected into `<app-root>` endlessly.
